@@ -112,3 +112,23 @@ td#quote {
 #footer-links a:hover {
 	text-decoration:underline;
 }
+
+/*
+*	Nav
+*/
+div#ga-nav {
+	font-size: 1em;
+	font-family:sans-serif;
+	text-align:right;
+	margin:20px 0 0 0;
+}
+
+div#ga-nav a {
+	margin: 0 10px 0 10px;
+	text-decoration:none;
+	color:#2f2f2f;
+}
+
+div#ga-nav a:hover {
+	text-decoration:underline;
+}
