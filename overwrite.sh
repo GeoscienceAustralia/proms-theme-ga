@@ -9,9 +9,9 @@ sudo sed -ie 's/template_header_vanilla/ga_header/' ${WEB_SUBFOLDER}/template_la
 sudo sed -ie 's/template_footer_vanilla/ga_footer/' ${WEB_SUBFOLDER}/template_layout_ga.html
 sudo sed -ie 's/template_layout_vanilla/template_layout_ga/' ${WEB_SUBFOLDER}/*.html
 
-cp templates/* $PROMS_DIR/templates/
-cp static/css/* $PROMS_DIR/static/css/
-cp static/img/* $PROMS_DIR/static/img/
+sudo mv templates/* $PROMS_DIR/templates/
+sudo mv static/css/* $PROMS_DIR/static/css/
+sudo mv static/img/* $PROMS_DIR/static/img/
 
 
 
