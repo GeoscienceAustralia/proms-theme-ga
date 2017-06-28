@@ -1,8 +1,16 @@
+html {
+    margin: 0 10%;
+	position: absolute;
+	top: 0;
+	bottom: 0;
+}
+
 body {
-	margin: 0 auto;
 	text-align: center;
 	background-color: #E0E0E0;
+	height:900px;
 }
+
 
 #container-logo {
 	margin: 0 auto;
@@ -67,12 +75,16 @@ ul li a {
 
 /******/
 
-#footer {
+div#footer-container {
+	background-color: white;
+	height: 50px;
+	width: 900px;
+	margin:0 auto;
     border-top: solid 1px #eeeeee; /*#3A464F;*/
     padding-top:5px;
 }
 
-#footer-external {
+div#footer-external {
     margin: 0 auto;
     width:894px;
 	box-shadow: 0 0 10px -8px #CDCDCD inset, 0 10px 10px -8px #CDCDCD inset;
@@ -80,21 +92,25 @@ ul li a {
 	padding-top: 0;
 }
 
-#footer-external-links {
+div#footer-external-links {
     list-style: none outside none;
     font-size: 1em;
     padding: 20px 0 0 2em;
 }
 
-#footer-external-links li {
-    display: inline;
+div#footer-external-links li {
+    display: inline-block;
     margin: 0 5px 0 5px;
     color: #666;
 }
 
-#footer-external-links li a {
-    color: #0f4a84;
+div#footer-external-links a {
+    color: black;
+	padding: 20px 10px 0 0;
+	
 }
+
+
 
 #nav {
     font-family: Verdana, Arial, helvetica, sans-serif;
@@ -178,12 +194,32 @@ table.nolined {
 *	Header
 */
 
+.header {
+    width: 100%; /*{{ site.brand_color }};*/
+    background-color: #fff;
+    padding: 2em 0;
+}
 
+.site-title {
+    font-size: 1.25em;
+    font-family: "Avenir Next", Arial, sans-serif;
+    font-weight: normal;
+    color: black;
+    margin: 0;
+	padding: 20px 0px 10px 10px;
+    display: inline-block;
+	text-decoration: none;
+}
 
+.title-link {
+	text-decoration: none;
+}
+/*
 header {
 	text-align:center;
 	background-color: white;
 }
+*/
 #header > table {
 	margin:0 auto;
 	text-align:left;
@@ -194,15 +230,17 @@ img#ga-logo {
 	height:100px;
 }
 td#quote {
-	font-size:1.5em;
+	font-size:1.4em;
 	font-family:sans-serif;
 }
 #ga-colour-strip-container {
-	width:100%;
-}
-#ga-colour-strip {
-	height:10px;
-	width:100%;
+	margin:0 auto;
+    width: 900px; 
+	height: 2px;
+    border-style: solid;
+    border-color: #01708C;
+    background-color: #01708C;
+
 }
 
 
@@ -226,4 +264,3 @@ div#ga-nav a {
 div#ga-nav a:hover {
 	text-decoration:underline;
 }
-
