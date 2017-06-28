@@ -1,24 +1,27 @@
 html {
-    margin: 0 10%;
-	position: absolute;
-	top: 0;
-	bottom: 0;
+        margin: 0 10%;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
 }
 
 body {
-	text-align: center;
-	background-color: #E0E0E0;
-	height:900px;
+        text-align: center;
+        background-color: #E0E0E0;
+        height:900px;
 }
 
 
 #container-logo {
-	margin: 0 auto;
-	text-align:left;
-	width:894px;
-	position:relative;
-	height:50px;
+        margin: 0 auto;
+        text-align:left;
+        width:894px;
+        position:relative;
+        height:50px;
 }
+
+
 
 #container-content {
 	margin: 0 auto;
