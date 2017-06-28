@@ -85,6 +85,7 @@ div#footer-container {
 	margin:0 auto;
     border-top: solid 1px #eeeeee; /*#3A464F;*/
     padding-top:5px;
+	overflow: hidden;
 }
 
 div#footer-external {
@@ -93,6 +94,7 @@ div#footer-external {
 	box-shadow: 0 0 10px -8px #CDCDCD inset, 0 10px 10px -8px #CDCDCD inset;
 	margin-top: -15px;
 	padding-top: 0;
+	overflow: hidden;
 }
 
 div#footer-external-links {
@@ -111,6 +113,11 @@ div#footer-external-links a {
     color: black;
 	padding: 20px 10px 0 0;
 	
+}
+
+div#footer-div1 {
+	width: 100px;
+	float:left;
 }
 
 
