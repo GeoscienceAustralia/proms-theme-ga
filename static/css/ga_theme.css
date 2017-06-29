@@ -93,6 +93,9 @@ div#footer-div1 {
 	width: 200px;
 	float:left;
 }
+div#footer-div1 p {
+	padding: 0 0 0 0
+}
 
 div#footer-external {
     margin: 0 auto;
